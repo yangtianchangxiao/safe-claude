@@ -1,0 +1,9 @@
+This repository is a cleaned distribution extracted from a production deployment.
+
+Base upstream:
+- https://github.com/Wei-Shaw/claude-relay-service
+
+What changed in this distribution:
+- removed machine-specific deployment wrappers, VPN scripts, subscription files, logs, backups, and local domains
+- kept the runnable relay service, admin UI build artifacts, pricing data, and core maintenance scripts
+- documented direct and proxy-based deployment paths for third-party operators

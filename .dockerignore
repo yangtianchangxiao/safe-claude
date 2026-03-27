@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log*
+.git
+.gitignore
+.env
+.env.*
+logs
+redis_data
+data/init.json
+coverage
+.vscode
+.idea
