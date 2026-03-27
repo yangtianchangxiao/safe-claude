@@ -2,7 +2,9 @@
 
 > 天下苦 Claude 久矣。
 >
-> `safe-claude` 做的事很简单：把你自己的 Claude 网关搭起来，少踩坑，少绕路，少和一堆机器私货死磕。
+> 我们希望更多人都能享受到 AI 带来的帮助，而不是被费用、配置和账号风险挡在门外。
+>
+> 如果你想和好兄弟一起分担昂贵的 Claude Code 费用，又不想把账号用乱；或者你有团队要带，想知道谁用了多少、谁在跑什么，那 `safe-claude` 就是给这种场景准备的。
 
 English: [README.en.md](./README.en.md)
 
@@ -19,6 +21,8 @@ English: [README.en.md](./README.en.md)
 - 跑一个自己的 Claude 服务入口
 - 后台添加 Claude 账号
 - 生成 `cr_...` API key
+- 给不同的人发不同的 key，方便按人统计使用情况
+- 团队一起用的时候，统一管理，不用大家各自乱配
 - 让 Claude Code 指到你的域名、IP 或 localhost
 - 需要的话，再接代理、家宽出口、Nginx 域名
 

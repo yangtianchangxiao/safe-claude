@@ -2,7 +2,9 @@
 
 > People have spent too much time fighting Claude setup.
 >
-> `safe-claude` keeps the job small: run your own Claude gateway and get to a usable endpoint faster.
+> We want more people to benefit from AI without getting blocked by cost, setup friction, or account risk.
+>
+> If you want to split the high cost of Claude Code with your crew without turning the account into chaos, or you need a team setup where you can see who used what, `safe-claude` is built for that.
 
 中文说明: [README.md](./README.md)
 
@@ -17,6 +19,8 @@ You connect your own Claude account, and it gives you a stable API endpoint for 
 - run your own Claude endpoint
 - add Claude accounts in the admin UI
 - create `cr_...` API keys
+- issue different keys to different people and track usage per key
+- keep team usage in one place instead of everyone wiring their own setup
 - point Claude Code to your domain, IP, or localhost
 - add proxy egress, home broadband egress, or Nginx later if needed
 
