@@ -1,12 +1,14 @@
 # safe-claude
 
+<p align="right">
+  <a href="./README.md">简体中文</a> | <strong>English</strong>
+</p>
+
 > People have spent too much time fighting Claude setup.
 >
 > We want more people to benefit from AI without getting blocked by cost, setup friction, or account risk.
 >
 > If you want to split the high cost of Claude Code with your crew without turning the account into chaos, or you need a team setup where you can see who used what, `safe-claude` is built for that.
-
-中文说明: [README.md](./README.md)
 
 ## What this is
 

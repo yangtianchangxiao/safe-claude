@@ -1,12 +1,14 @@
 # safe-claude
 
+<p align="right">
+  <strong>简体中文</strong> | <a href="./README.en.md">English</a>
+</p>
+
 > 天下苦 Claude 久矣。
 >
 > 我们希望更多人都能享受到 AI 带来的帮助，而不是被费用、配置和账号风险挡在门外。
 >
 > 如果你想和好兄弟一起分担昂贵的 Claude Code 费用，又不想把账号用乱；或者你有团队要带，想知道谁用了多少、谁在跑什么，那 `safe-claude` 就是给这种场景准备的。
-
-English: [README.en.md](./README.en.md)
 
 ## 这是什么
 
