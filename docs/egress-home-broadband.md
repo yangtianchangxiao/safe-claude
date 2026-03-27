@@ -9,8 +9,19 @@ It does support Claude traffic leaving through a home or residential connection 
 Use the document that matches your level:
 
 - If you only want the concept and architecture choices, read this file.
-- If you want the same Claude Code proxy pattern used on the production host, go to [deploy/home-broadband/STEP_BY_STEP.md](./deploy/home-broadband/STEP_BY_STEP.md).
-- If you want the beginner-friendly Chinese version, use [deploy/home-broadband/STEP_BY_STEP_ZH.md](./deploy/home-broadband/STEP_BY_STEP_ZH.md).
+- If you want the same Claude Code proxy pattern used on the production host, go to [deploy/home-broadband/STEP_BY_STEP.md](../deploy/home-broadband/STEP_BY_STEP.md).
+- If you want the beginner-friendly Chinese version, use [deploy/home-broadband/STEP_BY_STEP_ZH.md](../deploy/home-broadband/STEP_BY_STEP_ZH.md).
+
+## The Timing That Actually Matters
+
+If you plan to keep a Claude account on home broadband or residential egress, the safe order is:
+
+1. Get the site running.
+2. Confirm the admin UI opens.
+3. Connect the Claude egress path to home broadband.
+4. Only then sign in to Claude and add the account.
+
+Do not sign in to Claude on the raw VPS exit first and move it to home broadband later. That raises account risk.
 
 ## What The Clean Repo Supports
 

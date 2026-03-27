@@ -67,10 +67,18 @@ npm start
 Do these steps in order.
 
 1. Open the admin UI.
-2. Add a Claude account.
-3. Create a `cr_...` API key.
-4. Point Claude Code to your gateway.
-5. Test with a small API call.
+2. If you plan to use home broadband or residential egress for Claude, set that up before the first Claude login.
+3. Add a Claude account.
+4. Create a `cr_...` API key.
+5. Point Claude Code to your gateway.
+6. Test with a small API call.
+
+Important:
+
+- get the site and admin UI working first
+- but if Claude should live on home broadband egress, wire that in before you sign in to Claude
+
+Do not log in to Claude on the raw VPS exit first and move it to home broadband later. That increases account risk.
 
 ## Claude Code example
 
